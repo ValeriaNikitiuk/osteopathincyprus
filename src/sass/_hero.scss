@@ -1,0 +1,34 @@
+.section {
+  padding-bottom: 180px;
+}
+.container-hero {
+  display: flex;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: #000;
+  margin-bottom: 40px;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #8f95a5;
+  margin-bottom: 60px;
+}
+
+.hero-btn {
+  font-size: 36px;
+  line-height: 1.5;
+
+  color: #fff;
+  background: #263238;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+
+  width: 426px;
+  height: 100px;
+}
