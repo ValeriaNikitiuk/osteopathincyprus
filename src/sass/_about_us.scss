@@ -1,0 +1,42 @@
+.about_title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.about_content {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #8f95a5;
+
+  margin-top: 100px;
+}
+
+.about-pre-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #2a3246;
+}
+.about-text{
+font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+/* identical to box height */
+
+
+color: #8F95A5;
+}
+
+.conteiner {
+  display: flex;
+}
+.about-item {
+  display: flex;
+
+  margin-top: 30px;
+}
