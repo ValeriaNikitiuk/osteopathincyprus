@@ -1,0 +1,108 @@
+.hero{
+    padding-top:10px;
+    padding-bottom:100px;
+     height: 600px;
+     min-height: 400px;
+     margin: 0 auto;
+
+}
+
+
+
+.hero_author{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    display: block;
+        background-repeat: no-repeat;
+        background-image: url(../images/Ellipse\ 100.svg);
+        background-position: right;
+        background-size: 890px 820px;
+        position: relative;
+      
+}
+
+.hero_author__photo{
+position: absolute;
+    top: 30px;
+    left: 750px;
+    z-index: 1;
+    
+}
+
+.hero_author__photo__size{
+        border-radius: 50%;
+    border: 22px solid white;
+            margin-left: 160px;
+}
+
+.hero_author-title {
+    
+        text-decoration: none;
+    padding-top: 20px;
+     padding-left: 50px;
+}
+
+.hero_title{
+    margin-bottom: 45px;
+font-weight: 700;
+    font-size: 50px;
+    font-family: 'Comfortaa';
+    color: #64D370;
+   
+}
+
+.hero_title_name{
+font-weight: 700;
+    font-size: 50px;
+    font-family: 'Comfortaa';
+    color: #000000;
+}
+.hero-title-text{
+    background-color: rgba(255, 255, 255, 0.795);
+    height: 90px;
+    width: 435px;
+    margin-left: 250px;
+    border-radius: 40px;
+    padding-left: 25px;
+
+}
+
+.hero-title-text-cont{
+        text-align: center;
+    width: 389px;
+    padding-top: 10px;
+    color: #000;
+        font-family: Comfortaa;
+        font-size: 20px;
+        font-weight: 550;
+    
+}
+.hero-text{
+    width: 640px;
+        font-family: Montserrat;
+        font-size: 22px;
+        line-height: 1.5;
+        font-weight: 400;
+    
+}
+// -------кнопка-----
+
+.hero-btn{
+    margin-top: 30px;
+    font-weight: 700;
+        font-size: 24px;
+        font-family: 'Comfortaa';
+    width:300px;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+    background-color: #64D370;
+    border-color: #64D370;
+}
+
+.hero-btn:hover {
+    background-color: #336e39;
+    cursor: pointer;
+ 
+}
