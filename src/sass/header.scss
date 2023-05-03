@@ -8,11 +8,13 @@
 }
 
 .container--header{
-align-items: center;
+align-items: center; 
+
 }
 
 .cont{
     display: flex;
+    
 
 }
 .menu{
@@ -155,14 +157,7 @@ position: absolute;
     background-color: rgb(48, 147, 48);
 }
 
-#scrollTop {
-    position: fixed;
-    bottom: 35px;
-    right: 13px;
-    font-size: 28px;
-    z-index: 9999;
-    cursor: pointer;
-    color:green;
+
 
     // @media screen and (min-width: $tablet) {
     //     bottom: 45px;
@@ -175,12 +170,9 @@ position: absolute;
     //     bottom: 57px;
     //     font-size: 41px;
     // }
-}
 
-#scrollTop:hover {
-    color: orange;
-}
 
 .isShowBtn {
     opacity: 1;
 }
+

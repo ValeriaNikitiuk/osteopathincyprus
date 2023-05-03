@@ -1,0 +1,56 @@
+.container-teacher{
+padding-top: 220px;
+}
+
+.school-svg-icon{
+    fill:rgb(6, 232, 92);
+    margin-left: 90px;
+}
+
+.school-list{
+ list-style: none;
+ display: flex;
+
+
+}
+
+
+.school{
+  display: flex;
+  justify-content: center;
+  margin-left: 36px;
+}
+
+.school-svg-text{
+font-weight: 600;
+font-size: 24px;
+}
+
+
+.school-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.school-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.school-item:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
