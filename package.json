@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Belkina23.github.io/parcel-team-project",
+  "homepage": "https://ValeriaNikitiuk.github.io/osteopathincyprus",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-team-project/"
+    "build": "parcel build src/*.html --public-url /osteopathincyprus"
   },
   "repository": {
     "type": "git",
