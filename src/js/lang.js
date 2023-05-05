@@ -147,18 +147,36 @@ const homeText = {
         es: "¿Quieres aprender a tratar a las personas con tus manos y restaurar su salud sin el uso de medicamentos químicos o mejorar tus habilidades en este campo? ¡Entonces la Escuela de Osteopatía es lo que necesitas! En nuestra escuela, recibirás todos los conocimientos y habilidades necesarias para convertirte en un osteópata altamente calificado. Nuestro programa de formación incluye tanto clases teóricas como prácticas, lo que te permitirá comprender los fundamentos de la medicina osteopática y aplicarlos en la práctica.",
         tur: "Ellerinizle insanları tedavi etmeyi ve kimyasal ilaçlar kullanmadan sağlıklarını geri kazanmayı öğrenmek veya bu alandaki niteliklerinizi artırmak mı istiyorsunuz? Osteopati Okulu tam size göre! Okulumuzda, yüksek kaliteli bir osteopat olmak için gereken tüm bilgi ve becerileri edineceksiniz. Eğitim programımız teorik ve pratik dersleri içerir, böylece osteopatik tıbbın temellerini anlayabilir ve uygulayabilirsiniz.",
     },    
-    // "course": {
-    //     ru: "Ознакомиться с курсами можно",
-    //     en: "You can familiarize yourself with the courses",
-    //     es: "Puedes familiarizarte con los cursos",
-    //     tur: "Kurslarla ilgili bilgi edinebilirsiniz",
-    // }, 
-    // "here": {
-    //     ru: "Здесь",
-    //     en: "here",
-    //     es: "aquí",
-    //     tur: "burada",
-    // },
+    "course": {
+        ru: "Ознакомиться с курсами можно",
+        en: "You can familiarize yourself with the courses",
+        es: "Puedes familiarizarte con los cursos",
+        tur: "Kurslarla ilgili bilgi edinebilirsiniz",
+    }, 
+    "here": {
+        ru: "Здесь",
+        en: "here",
+        es: "aquí",
+        tur: "burada",
+    },
+    "icons": {
+        ru: "Сертификат европейского образца",
+        en: "European standard certificate",
+        es: "Certificado de estándar europeo",
+        tur: "Avrupa standart sertifikası",
+    },
+    "icons2": {
+        ru: "Обучение на нескольких языках",
+        en: "Multilingual training",
+        es: "Entrenamiento multilingüe",
+        tur: "Çok dilli eğitim",
+    },
+     "icons3": {
+        ru: "Совмещение учебы и отдыха на прекрасном острове Кипр",
+        en: "Combining studying and leisure on the beautiful island of Cyprus",
+        es: "Combinando el estudio y el ocio en la hermosa isla de Chipre",
+        tur: "Güzel Kıbrıs adasında eğitim ve dinlenceyi birleştirme",
+    },
 
 }
 
