@@ -177,6 +177,36 @@ const homeText = {
         es: "Combinando el estudio y el ocio en la hermosa isla de Chipre",
         tur: "Güzel Kıbrıs adasında eğitim ve dinlenceyi birleştirme",
     },
+     "icons3": {
+        ru: "Совмещение учебы и отдыха на прекрасном острове Кипр",
+        en: "Combining studying and leisure on the beautiful island of Cyprus",
+        es: "Combinando el estudio y el ocio en la hermosa isla de Chipre",
+        tur: "Güzel Kıbrıs adasında eğitim ve dinlenceyi birleştirme",
+    },
+     "person": {
+        ru: "Наши преподаватели",
+        en: "Our teachers",
+        es: "Nuestros profesores",
+        tur: "Öğretmenlerimiz",
+    },
+     "person1": {
+        ru: "Практикующий остеопат и преподаватель в школе остеопатии на Кипре. С2017 по 2022 годы проходил обучение в Международной АкадемииОстеопатии под руководством доктора Алена Бернардо Горидо и получилмеждународный диплом. Также является членом Испанской АссоциацииПрофессиональных Остеопатов (Р.О.Р.) , автор двух учебников поостеопатии, а также методологии Дидух Гарридо.",
+        en: "Practicing osteopath and teacher at the osteopathy school in Cyprus. From 2017 to 2022, he underwent training at the International Academy of Osteopathy under the guidance of Dr. Alain Bernard Gorido and received an international diploma. He is also a member of the Spanish Association of Professional Osteopaths (R.O.P.), author of two textbooks on osteopathy, as well as the Didukh Harido methodology.",
+        es: "Osteópata en ejercicio y profesor en la escuela de osteopatía en Chipre. De 2017 a 2022, realizó una formación en la Academia Internacional de Osteopatía bajo la dirección del Dr. Alain Bernard Gorido y obtuvo un diploma internacional. También es miembro de la Asociación Española de Osteópatas Profesionales (R.O.P.), autor de dos libros de texto sobre osteopatía, así como de la metodología Didukh Harido.",
+        tur: "Kıbrıs'taki osteopati okulunda çalışan bir osteopat ve öğretmen. 2017-2022 yılları arasında Dr. Alain Bernard Gorido'nun rehberliğinde Uluslararası Osteopati Akademisi'nde eğitim aldı ve uluslararası bir diploma aldı. Ayrıca İspanyol Profesyonel Osteopatlar Derneği (R.O.P.) üyesidir, osteopati konusunda iki ders kitabının yazarıdır ve Didukh Harido metodolojisinin de yazarıdır.",
+    },
+     "person2": {
+        ru: "Является ведущим преподавателем курса и практикующим остеопатом и массажистом. Кроме того, имеет сертификат специалиста в области массажа лица и тела, а также является энергетическим практиком.",
+        en: "Is a leading course instructor, practicing osteopath, and massage therapist. In addition, he/she holds a specialist certificate in facial and body massage and is also an energy practitioner.",
+        es: "Es el instructor principal del curso y osteópata y masajista practicante. Además, tiene un certificado especialista en masaje facial y corporal, y también es un practicante de energía.",
+        tur: "Kursun önde gelen eğitmeni ve uygulamalı osteopat ve masaj terapistidir. Ayrıca yüz ve vücut masajı alanında uzmanlık sertifikası sahibidir ve aynı zamanda bir enerji uygulayıcısıdır.",
+    },
+     "person3": {
+        ru: "Профессор остеопатии",
+        en: "Osteopathy professor",
+        es: "Profesor de osteopatía",
+        tur: "Osteopati profesörü",
+    },
 
 }
 

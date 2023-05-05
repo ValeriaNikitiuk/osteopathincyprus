@@ -6,14 +6,17 @@ background-color: rgb(221, 249, 222);
 
 .school-svg-icon{
     fill:rgb(6, 232, 92);
-    margin-left: 90px;
+    margin-left: 50px;
 }
 
 .school-list{
  list-style: none;
  display: flex;
+}
 
-
+.school-item {
+  display: flex;
+    align-items: center;
 }
 
 
