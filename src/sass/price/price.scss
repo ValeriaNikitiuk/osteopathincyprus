@@ -1,0 +1,47 @@
+.price {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    
+}
+
+.price-name {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.price-list {
+    list-style-type:square;
+   
+    margin: 0;
+    padding: 0;
+  
+}
+
+.price-container{
+    background-color: rgb(241, 253, 237);
+    border-radius: 50px;
+}
+
+.price-item {
+    font-size: 26px;
+    margin-bottom: 13px;
+    font-family: Montserrat;
+    
+}
+
+.price {
+    position: relative;
+}
+
+.price .image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 540px;
+    background-image: url(/src/images/вазон.png);
+    background-size: cover;
+    
+}
+
