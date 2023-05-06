@@ -10,96 +10,172 @@
 
 
 .hero_author{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  max-width: 480px;
     display: block;
         background-repeat: no-repeat;
         background-image: url(../images/Ellipse\ 100.svg);
         background-position: right;
-        background-size: 890px 820px;
+        background-size: 20px 10px;
         position: relative;
+        right: 0;
+        @media screen and (min-width: 1200px) {
+                display: flex;
+                justify-content: space-between;
+                background-size: 890px 820px;
+                width: 100%;
+            }
       
+}
+
+.hero_author-clients{
+    font-weight: 600;
+    color:black;
 }
 
 .hero_author__photo{
 position: absolute;
-    top: 30px;
-    left: 750px;
+    top: 48px;
+    left: 5px;
     z-index: 1;
+  
+    @media screen and (min-width: 1200px) {
+            left: 750px;
+            top: 30px;
+        }
     
 }
 
 .hero_author__photo__size{
-        border-radius: 50%;
-    border: 22px solid white;
+    width: 140px;
+     border-radius: 50%;
+    border:7px solid rgba(61, 242, 88, 0.701);
             margin-left: 160px;
+            @media screen and (max-width: 480px) {
+                    margin-left: 160px;
+                    margin-top: 80px;
+                }
+            @media screen and (min-width: 1200px) {
+                    width:600px;
+                    border: 22px solid white;
+                }
 }
 
 .hero_author-title {
-    
-        text-decoration: none;
-    padding-top: 20px;
-     padding-left: 50px;
+    text-decoration: none;
+
+@media screen and (max-width: 480px) {
+    margin-top: -10px;
+    }
+    @media screen and (min-width: 1200px) {
+         padding-top: 20px;
+         padding-left: 50px;
+        }
 }
 
 .hero_title{
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 font-weight: 700;
-    font-size: 50px;
+    font-size: 31px;
     font-family: 'Comfortaa';
     color: #64D370;
+    @media screen and (max-width: 480px) {
+            width: 240px;
+        }
+    @media screen and (min-width: 1200px) {
+            font-size: 50px;
+        }
    
 }
 
 .hero_title_name{
 font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Comfortaa';
     color: #000000;
+    @media screen and (max-width: 480px) {
+        padding-top: 15px;
+        width: 100px;
+        }
+    @media screen and (min-width: 1200px) {
+            font-size: 50px;
+        }
 }
 .hero-title-text{
     background-color: rgba(255, 255, 255, 0.795);
-    height: 90px;
-    width: 435px;
-    margin-left: 250px;
+    height: 68px;
     border-radius: 40px;
     padding-left: 25px;
+    
 
+    @media screen and (max-width:480px) {
+       background-color: #f3f0d9;
+        max-width: 480px;
+        width:94vw;
+        }
+@media screen and (min-width: 1200px) {
+        height: 90px;
+        margin-left: 250px;
+            width: 435px;
+    }
 }
 
 .hero-title-text-cont{
         text-align: center;
-    width: 389px;
+    width: 250px;
     padding-top: 10px;
     color: #000;
         font-family: Comfortaa;
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 550;
-    
-}
+        @media screen and (max-width: 480px) {
+                max-width: 480px;
+                    width: 82vw;
+                }
+            
+        @media screen and (min-width: 1200px) {
+                width: 389px;
+                font-size: 20px;
+            } }
+        
 .hero-text{
-    width: 640px;
+    max-width: 470px;
+ 
     height: 260px;
         font-family: Montserrat;
-        font-size: 22px;
+        font-size: 17px;
         line-height: 1.5;
         font-weight: 400;
+       
+        @media screen and (max-width: 480px) {
+                margin-top: 130px;
+                width: 94vw;
+            }
+        @media screen and (min-width: 1200px) {
+                max-width: 650px;
+                font-size: 22px;
+            }
     
 }
 // -------кнопка-----
 
 .hero-btn{
-    margin-top: 30px;
-    font-weight: 700;
-        font-size: 24px;
+    margin-top: 145px;
+    font-weight: 400;
+        font-size: 20px;
         font-family: 'Comfortaa';
-    width:300px;
-    height: 80px;
+    width:150px;
+    height: 55px;
     border-radius: 40px;
     color: white;
     background-color: #64D370;
     border-color: #64D370;
+    @media screen and (min-width: 1200px) {
+            width: 300px;
+            height: 80px;
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 30px;
+        }
 }
 
 .hero-btn:hover {
