@@ -1,0 +1,1 @@
+{"mappings":"mMAAAA,EAAEC,QAAQC,GAAG,QAAQ,WACnBF,EAAE,iBAAiBG,UACnBH,EAAE,WAAWI,MAAM,KAAKD,QAAQ,O","sources":["src/js/loader.js"],"sourcesContent":["$(window).on(\"load\", function() {\n  $(\".loader_inner\").fadeOut();\n  $(\".loader\").delay(400).fadeOut(\"slow\");\n});"],"names":["$","window","on","fadeOut","delay"],"version":3,"file":"loader.1bc9f1a4.js.map"}
