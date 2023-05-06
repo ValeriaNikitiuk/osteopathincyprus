@@ -207,6 +207,12 @@ const homeText = {
         es: "Profesor de osteopatía",
         tur: "Osteopati profesörü",
     },
+     "result": {
+        ru: "До/После",
+        en: "Before/After",
+        es: "Antes/Después",
+        tur: "Önce/Sonra",
+    },
 
 }
 
