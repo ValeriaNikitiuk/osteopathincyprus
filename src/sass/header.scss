@@ -187,7 +187,10 @@ display: flex;
 
 .gallery-open_container{
 padding: 40px 60px;
-;
+@media screen and (max-width: 480px) {
+    padding: 20px 20px;
+
+    }
     
    
 }
@@ -216,6 +219,17 @@ position: absolute;
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
+    @media screen and (max-width: 480px) {
+        right: 10px;
+         top: 69px;
+        }
+   }
+
+.modal-close__icon {
+    @media screen and (max-width: 480px) {
+        width: 32px;
+        height:32px;
+    }
 }
 
 .modal-close__icon:hover {

@@ -1,17 +1,29 @@
 .container-teacher{
-  margin-top:30px;
+  margin-top: 20px;
 border-radius: 30px;
 background-color: rgb(221, 249, 222);
+@media screen and (min-width: 1200px) {
+    margin-top: 150px;
+      border-radius: 30px;
+  }
 }
 
 .school-svg-icon{
     fill:rgb(6, 232, 92);
     margin-left: 50px;
+    @media screen and (max-width: 480px) {
+        margin-left: 0px;
+        width: 33px;
+        height: 33px;
+      }
 }
 
 .school-list{
  list-style: none;
  display: flex;
+@media screen and (max-width: 480px) {
+  display: block;
+  }
 }
 
 .school-item {
@@ -24,11 +36,20 @@ background-color: rgb(221, 249, 222);
   display: flex;
   justify-content: center;
   margin-left: 76px;
+  @media screen and (max-width: 480px) {
+    margin-left: -20px;
+    display: block;
+    }
 }
 
 .school-svg-text{
 font-weight: 600;
 font-size: 24px;
+@media screen and (max-width: 480px) {
+    font-size: 17px;
+    width:82vw;
+    margin-top: 4px;
+  }
 }
 
 
