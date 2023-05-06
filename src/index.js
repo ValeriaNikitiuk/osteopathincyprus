@@ -1,4 +1,5 @@
 import('./js/lang');
+import('./js/loader');
 
 const galleryButton = document.querySelector('.gallery-open');
 const galleryContainer = document.querySelector('#gallery');
