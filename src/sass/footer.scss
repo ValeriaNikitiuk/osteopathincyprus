@@ -20,9 +20,14 @@
 
 .network svg {
     @media screen and (max-width: 480px) {
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
         }
+                @media screen and (min-width: 481px) and (max-width: 768px) {
+                width: 30px;
+                    height: 30px;
+        
+                }
 }
 
 
@@ -68,11 +73,10 @@
     // }
 
 
-    // @media screen and (max-width: 767px) {
-    //     flex-direction: column;
-    //     align-items: center;
-    //     text-align: center;
-    // }
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+         max-width: 768px;
+    
+     }
 
     @media screen and (min-width: 1200px) {
         align-items: baseline;

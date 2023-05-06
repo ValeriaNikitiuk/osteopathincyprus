@@ -18,6 +18,7 @@
         background-size: 20px 10px;
         position: relative;
         right: 0;
+        
         @media screen and (min-width: 1200px) {
                 display: flex;
                 justify-content: space-between;
@@ -37,7 +38,11 @@ position: absolute;
     top: 48px;
     left: 5px;
     z-index: 1;
-  
+@media screen and (min-width: 481px) and (max-width: 768px) {
+        left: 39%;
+        top: 85px;
+
+    }
     @media screen and (min-width: 1200px) {
             left: 750px;
             top: 30px;
@@ -46,7 +51,7 @@ position: absolute;
 }
 
 .hero_author__photo__size{
-    width: 140px;
+    width: 130px;
      border-radius: 50%;
     border:7px solid rgba(61, 242, 88, 0.701);
             margin-left: 160px;
@@ -116,6 +121,11 @@ font-weight: 700;
         max-width: 480px;
         width:94vw;
         }
+                  @media screen and (min-width: 481px) and (max-width: 768px) {
+                        background-color: #f3f0d9;
+                        width:350px;
+        
+                  }
 @media screen and (min-width: 1200px) {
         height: 90px;
         margin-left: 250px;
@@ -135,6 +145,10 @@ font-weight: 700;
                 max-width: 480px;
                     width: 82vw;
                 }
+                                @media screen and (min-width: 481px) and (max-width: 768px) {
+                                    margin-top: 255px;
+                
+                                }
             
         @media screen and (min-width: 1200px) {
                 width: 389px;
@@ -151,11 +165,17 @@ font-weight: 700;
         font-weight: 400;
        
         @media screen and (max-width: 480px) {
-                margin-top: 160px;
+                margin-top: 170px;
                 width: 94vw;
                 height: 210px;
                 font-size: 14px;
             }
+
+                        @media screen and (min-width: 481px) and (max-width: 768px) {
+                            font-size: 15px;
+                        width: 68vw;
+                        margin-top: 70px;
+                        }
                     
                             
         @media screen and (min-width: 1200px) {
