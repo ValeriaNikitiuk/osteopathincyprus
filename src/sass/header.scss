@@ -112,6 +112,9 @@ padding-top: 30px;
 .header-btn{
     margin-right: 37px;
     margin-top: 25px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
     width: 34px;
     height:34px;
     font-weight: 400;
@@ -196,7 +199,11 @@ display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
    padding: 40px;
-}
+@media screen and (max-width: 480px) {
+        width: 100%;
+         padding: 20px;
+        
+}}
 
 .modal-close{
 position: absolute;
