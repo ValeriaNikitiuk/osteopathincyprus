@@ -1,5 +1,9 @@
 .slider-title{
     text-align: center;
+    @media screen and (max-width: 480px) {
+            text-align:start;
+    
+        }
 }
 
 .before-list {
