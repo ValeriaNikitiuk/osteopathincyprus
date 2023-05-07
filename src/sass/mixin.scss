@@ -1,0 +1,13 @@
+ @mixin size($fv, $fh) {
+     width: $fv;
+     height: $fh;
+ }
+
+//  @include size(435px, 90px);
+
+@mixin text($fw, $fs) {
+    font-weight: $fw;
+    font-size: $fs;
+}
+
+//  @include text(435px, 90px);

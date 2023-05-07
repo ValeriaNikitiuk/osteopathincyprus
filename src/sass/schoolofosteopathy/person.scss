@@ -1,7 +1,6 @@
 .main__section {
     padding-top: 0;
     display: none;
-
     @media screen and (min-width: 1200px) {
         display: contents;
         padding-bottom: 94px;
@@ -14,20 +13,15 @@
     @media screen and (max-width: 480px) {
         padding-bottom: 140px;
         }
-                @media screen and (min-width: 481px) and (max-width: 768px) {
+                @media screen and (min-width: 481px) and (max-width: 1199px) {
                     padding-bottom: 20px;
                 }
-                                 @media screen and (min-width: 769px) and (max-width: 1199px) {
-                                    padding-bottom: 20px;
-                                 }
 }
 .main__title {
     text-align: center;
     margin-bottom: 30px;
     color: rgb(10, 14, 11);
     font-size: 20px;
-
-
     @media screen and (max-width: 480px) {
             max-width: 460px;
             width: 90vw;
@@ -39,7 +33,6 @@
                 }
                                 @media screen and (min-width: 769px) and (max-width: 1199px) {
                                     max-width: 1199px;
-                ax-width: 760px;
                     width: 90vw;
                     font-size: 28px;
                 
@@ -68,7 +61,6 @@
 
 
 .container-person{
-
 @media screen and (max-width: 480px) {
         max-width: 480px;
     }
@@ -101,8 +93,7 @@
 .person-list__title {
     margin-top: 30px;
     margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 26px;
+    @include text(500, 26px);
     justify-content: center;
     color: green;
     @media screen and (max-width: 480px) {
@@ -125,24 +116,12 @@
     font-size: 16px;
     line-height: 1.18;
     color: rgb(50, 54, 50);
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1199px) {
         margin: 0;
             padding-left: 0;
             justify-content: center;
             width: 95vw;
         }
-                @media screen and (min-width: 481px) and (max-width: 768px) {
-                margin: 0;
-                    padding-left: 0;
-                    justify-content: center;
-                    width: 95vw;
-                }
-                 @media screen and (min-width: 769px) and (max-width: 1199px) {
-                    margin: 0;
-                        padding-left: 0;
-                        justify-content: center;
-                        width: 95vw;
-                 }
     @media screen and (min-width: 1200px) {
             display: flex;
                 gap: 200px;
@@ -152,8 +131,7 @@
 .person-list__text {
     margin-bottom: 16px;
     margin:24px;
-    font-weight: 500;
-    font-size: 19px;
+    @include text(500, 19px);
     @media screen and (max-width: 480px) {
             font-size: 15px;
         }
@@ -172,11 +150,7 @@ font-size: 17px;
     width: 100%;
     border-radius: 18px;
     max-width: 360px;
-    margin: 0 auto;
-    // @media screen and (min-width: 768px) {
-    //     width: calc((100% - 30px)/ 2);
-    // }
-          
+    margin: 0 auto; 
     @media screen and (min-width: 1200px) {
         width: calc((100% - 450px)/ 3);
     }

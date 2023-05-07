@@ -8,35 +8,30 @@ const modalClose = document.querySelector('.modal-close');
 
 
 
-galleryButton.addEventListener('click', function() {
-  galleryContainer.style.display = 'block';
+galleryButton.addEventListener('click', () => {
+galleryContainer.style.display = 'block';
 });
 
-galleryContainer.addEventListener('click', function (event) {
-    if (event.target === galleryContainer) {
-      galleryContainer.style.display = 'none';
-       if (event.target === galleryContainer) {
-    return;
-  }
+galleryContainer.addEventListener('click', (event) => {
+if (event.target === galleryContainer) {
+galleryContainer.style.display = 'none';
 }
 });
 
-modalClose.addEventListener('click', function() {
-  galleryContainer.style.display = 'none';
-   
+modalClose.addEventListener('click', () => {
+galleryContainer.style.display = 'none';
 });
 
+// header links
 
-// ссылки хедера
+const currentPath = window.location.pathname;
 
-
-var links = document.querySelectorAll('.item-link');
-
-for (var i = 0; i < links.length; i++) {
-  if (links[i].getAttribute('href') === window.location.pathname) {
-    links[i].classList.add('active');
-  }
+document.querySelectorAll('.item-link').forEach((link) => {
+if (link.getAttribute('href') === currentPath) {
+link.classList.add('active');
 }
+});
+
 
 
 

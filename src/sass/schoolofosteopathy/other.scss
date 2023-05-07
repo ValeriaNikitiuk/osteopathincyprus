@@ -8,11 +8,9 @@
 
 .hero-school-text{
     margin-left: 10px;
-   
         font-family: Montserrat;
-        font-size: 15px;
+        @include text(400, 15px);
         line-height: 1.5;
-        font-weight: 400;
         @media screen and (max-width: 480px) {
                 max-width: 450px;
                 width: 90vw;
@@ -43,17 +41,14 @@
         box-shadow: 0px 0px 40px rgba(124, 145, 132, 0.3);
         border-color: rgba(14, 60, 21, 0.37);
         @media screen and (max-width: 480px) {
-                width: 140px;
-                height:210px;
+                  @include size(140px, 210px);
             }
                         @media screen and (min-width: 481px) and (max-width: 768px) {
-                            width: 170px;
-                                height: 240px;
+                                @include size(170px, 240px);
                                     margin-right: 9px
                         }
           @media screen and (min-width: 769px) and (max-width: 1199px) {
-            width: 200px;
-                height: 290px;
+                @include size(200px, 290px);
                 margin-right: 14px
           }
 }
@@ -79,14 +74,11 @@ margin-top: -5px;
           display: none;
         }
     @media screen and (min-width: 1200px) {
-            width: 200px;
+        @include size(200px, 200px);
                 margin-left: 30px;
                 margin-top: 200px;
-                height: 200px;
         }
 }
-
-
 
 .courses-link {
     display: flex;
@@ -103,10 +95,7 @@ margin-top: -5px;
 }
 
 .courses-link p {
-    font-weight: 600;
-    font-size: 18px;
-    
-    
+    @include text(600, 18px);
     @media screen and (min-width: 1200px) {
         font-weight: 600;
             font-size: 24px;

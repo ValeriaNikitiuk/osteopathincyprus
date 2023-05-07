@@ -8,7 +8,6 @@
     transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-style: normal;
-    // @include font(null, 14px, 1.71, 0.03em);
     color: rgba(255, 255, 255, 0.6);
 
     &:hover,
@@ -20,19 +19,11 @@
 
 .network svg {
     @media screen and (max-width: 480px) {
-            width: 28px;
-            height: 28px;
+            @include size(28px, 28px);
         }
-                @media screen and (min-width: 481px) and (max-width: 768px) {
-                width: 28px;
-                    height: 28px;
-        
-                }
                                 @media screen and (min-width: 769px) and (max-width: 1199px) {
-                                    width: 31px;
-                                        height: 31px;
-                
-                
+                                @include size(31px, 31px);
+  
                                 }
                 
 }
@@ -70,16 +61,12 @@
 
 
 .container--footer {
- 
-
-
     @media screen and (min-width: 481px) and (max-width: 768px) {
          max-width: 768px;
     
      }
-         @media screen and (min-width: 769px) and (max-width: 1199px) {
+         @media screen and (min-width: 769px)  {
              max-width: 1199px;
-    
     align-items: baseline;
         display: flex;
         text-align: left;
@@ -94,13 +81,9 @@
 
 
 .footer-contact {
-@media screen and (min-width: 769px) and (max-width: 1199px) {
+@media screen and (min-width: 769px)  {
         margin-left: 0;
-            text-align: left;
-    }
-    @media screen and (min-width: 1200px) {
-        margin-left: 0;
-        text-align: left;
+         text-align: left;
     }
 
 }
@@ -110,15 +93,12 @@
     display: flex;
     gap: 8px;
     list-style-type: none;
- 
     margin-bottom: 5px;
-
-    @media screen and (min-width: 769px) and (max-width: 1199px) {
-            max-width: 1199px;
+    @media screen and (min-width: 769px)  {
+     max-width: 1199px;
     gap: 10px;
-        margin-bottom: 20px;
-        justify-content: center;
-    
+      margin-bottom: 20px;
+       justify-content: center;
         }
     @media screen and (min-width: 1200px) {
         gap: 12px;
@@ -144,26 +124,19 @@
 
 .bottom-icon {
     margin-top: 30px;
-
-    // @media screen and (min-width: 768px) {
-    //     margin-top: 0;
-    // }
-
     @media screen and (min-width: 1200px) {
         margin-left: 70px;
-            margin-top: 60px;
+         margin-top: 60px;
     }
 }
 
 .bottom-icon__paragraph {
     margin-bottom: 20px;
-   font-weight: 600;
-   font-size: 13px;
+    @include text(600, 13px);
    line-height: 1.14;
  letter-spacing: 0.03em;
  margin-left: 44px;
     text-transform: uppercase;
-
     color: #FFFFFF;
     @media screen and (min-width: 1200px) {
             font-size: 20px;
