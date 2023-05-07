@@ -1,9 +1,7 @@
 
 .container {
-    padding: 20px ;
-   
+    padding: 20px ; 
    width: 100%;
-
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -20,23 +18,21 @@ padding-top: 30px;
 }
 .menu{
    
+    display: flex;
     list-style: none;
     @media screen and (max-width: 480px) {
             height: 120px;
-            display: flex;
                 width: 230px;
                 flex-wrap: wrap;
         }
                    @media screen and (min-width: 481px) and (max-width: 768px) {
                     height: 40px;
-                    display: flex;
                     width: 400px;
-                    gap:20px;
-                    
+                    gap:20px;  
                 }
-    @media screen and (min-width: 1200px) {
-            display: flex;
-        }
+         @media screen and (min-width: 768px) and (max-width: 1200px) {
+            height: 40px;
+         }
 }
 
 
@@ -46,6 +42,9 @@ padding-top: 30px;
     font-family: 'Montserrat';
     color: black;
     text-decoration: none;
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+            font-size: 22px;
+        }
     @media screen and (min-width: 1200px) {
             font-size: 25px;
         }
@@ -55,6 +54,9 @@ padding-top: 30px;
 .menu-item:not(:last-child){
     @media screen and (max-width: 480px) {
         margin-right: 14px;}
+                @media screen and (min-width: 768px) and (max-width: 1200px) {
+                    margin-right: 30px;
+                }
 
          @media screen and (min-width: 1200px) {
           margin-right: 60px;
@@ -106,6 +108,12 @@ padding-top: 30px;
                                     margin-bottom: 40px;
                 
                                  }
+           @media screen and (min-width: 768px) and (max-width: 1200px) {
+            width: 600px;
+            margin-bottom: 60px;
+            margin-left: 140px;
+           }
+    
     @media screen and (min-width: 1200px) {
                 width: 1000px;
                 margin-left: 400px;
@@ -142,6 +150,11 @@ padding-top: 30px;
     box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
     border-color: rgba(78, 78, 73, 0.185);
     cursor: pointer;
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+            width: 40px;
+                height: 40px;
+                font-size: 14px;
+        }
     @media screen and (min-width: 1200px) {
             width: 50px;
             height: 50px;
@@ -181,6 +194,10 @@ width: 130px;
 //    padding: 20px;
     padding: 15px;
     border-radius: 50% ;
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+            padding: 50px;
+            ;
+        }
  
 }
 
@@ -208,8 +225,8 @@ width: 130px;
 padding: 40px 60px;
 @media screen and (max-width: 480px) {
     padding: 20px 20px;
-
     }
+        
     
    
 }

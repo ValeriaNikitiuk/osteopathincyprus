@@ -2,10 +2,16 @@
   margin-top: 20px;
 border-radius: 30px;
 background-color: rgb(221, 249, 222);
+
 @media screen and (min-width: 1200px) {
     margin-top: 150px;
       border-radius: 30px;
   }
+   
+     @media screen and (min-width: 769px) and (max-width: 1199px) {
+       max-width: 1000px;
+       
+     }
 }
 
 .school-svg-icon{
@@ -16,6 +22,16 @@ background-color: rgb(221, 249, 222);
         width: 33px;
         height: 33px;
       }
+                     @media screen and (min-width: 481px) and (max-width: 768px) {
+                      margin-left: 0px;
+                        width: 33px;
+                        height: 33px;
+                     }
+                                            @media screen and (min-width: 769px) and (max-width: 1199px) {
+                                              margin-left: 0px;
+                                                width: 33px;
+                                                height: 33px;
+                                            }
 }
 
 .school-list{
@@ -24,6 +40,15 @@ background-color: rgb(221, 249, 222);
 @media screen and (max-width: 480px) {
   display: block;
   }
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+      display: block;
+  
+    }
+ @media screen and (min-width: 769px) and (max-width: 1199px) {
+  flex-wrap: wrap;
+    gap: 50px;
+ }
+        
 }
 
 .school-item {
@@ -40,6 +65,13 @@ background-color: rgb(221, 249, 222);
     margin-left: -20px;
     display: block;
     }
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+          margin-left: 20px;
+            display: block;
+        }
+                 @media screen and (min-width: 769px) and (max-width: 1199px) {
+                  margin-left: 10px;;
+                 }
 }
 
 .school-svg-text{
@@ -50,6 +82,15 @@ font-size: 24px;
     width:82vw;
     margin-top: 4px;
   }
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+      font-size: 17px;
+        width: 82vw;
+        margin-top: 4px;
+    }
+         @media screen and (min-width: 769px) and (max-width: 1199px) {
+            margin-top: 12px;
+              font-size: 15px
+         }
 }
 
 
