@@ -1,5 +1,6 @@
 .slider-title{
     text-align: center;
+    
     @media screen and (max-width: 480px) {
             text-align:start;
     
@@ -11,14 +12,18 @@
                 }
                                 @media screen and (min-width: 769px) and (max-width: 1199px) {
                                     text-align: start;
-                                    margin-bottom: 60px;
+                                    margin-bottom: 60px;}
                 
-                                }
-}
+       
+        @media screen and (min-width: 1200px)  {
+             
+        margin-bottom: 120px;
+            }                         }
+
 
 .before{
     @media screen and (min-width: 769px) and (max-width: 1199px) {
-        width: 90vw;
+        width: 80vw;
         }
 }
 .container-slider{
@@ -29,8 +34,13 @@
         }
     @media screen and (min-width: 769px) and (max-width: 1199px) {
             max-width: 1199px;
+           
     
         }
+                @media screen and (min-width: 1200px)  {
+                    margin-bottom: 100px;
+        
+                }
 }
 .before-list {
     display: flex;
@@ -56,7 +66,7 @@
 .before-item {
     list-style: none;
     width: 330px;
-    height: 330px;
+    height: 370px;
     margin: 0 10px;
     @media screen and (max-width: 480px) {
             width: 93vw;
